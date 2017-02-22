@@ -42,23 +42,42 @@
 </nav><!--end navigation-->
   
 <header>
-  <!--Left half of the hero image-->
-<div id="leftHalf">
+    <div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <!--...edited -->
+        <!--Left half of the  image-->
+      
+        <div id="leftHalf">
   <div class="overlay"></div>
-	<div class="intro">
-		<h1 class="animated fadeInUp"><span style="color:#38a1d2">Uddeshya</span></h1>
-		<h2 class="animated fadeInUp">Engineer</h2>
-	</div>
+    <div class="intro">
+        <h1 class="animated fadeInUp"><span style="color:#38a1d2 ">Uddeshya </span></h1>
+        <h2 class="animated fadeInUp">Engineer   |</h2>
+    </div>
+</div>
+<!--Right half of the  image -->
+<div id="rightHalf">
+    <div class="overlayBis"></div>
+    <div class="intro">
+        <h1 class="animated fadeInUp left"><span style="color:#FF4747"> Mishra</span></h1>
+        <h2 class="animated fadeInUp left">Designer</h2>
+    </div>
 </div>
 
-<!--Right half of the hero image-->
-<div id="rightHalf">
-	<div class="overlayBis"></div>
-	<div class="intro">
-		<h1 class="animated fadeInUp left"><span style="color:#FF4747"> Mishra</span></h1>
-		<h2 class="animated fadeInUp left"> Designer</h2>
-	</div>
+
+        <video autoplay loop class="fillWidth">
+
+            <source src="Training.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              
+            <source src="Training.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="Training.mp4" alt="">
+        </div>
+    </div>
 </div>
+  
+
 
 	<div id="scrollDown">
 		<a href="#aboutMe" id="button" class="page-scroll">
@@ -107,6 +126,7 @@
 					</div>
                 </div>
                 <div class="col-md-2 midimage">
+                    
                     <img class="img-responsive hidden-sm" src="img/zine.jpeg" alt="">
              		<img class="img-responsive hidden-sm" src="img/man.jpg" alt="">
                     <img class="img-responsive hidden-sm" src="img/e=mc2.jpg" alt="">
@@ -119,7 +139,7 @@
 						My academic interest includes Image Processing, Computer Programming, Internet of Things, Machine Learning, Web Development and Robotics.<br>
 						 I have worked on numerous interdisciplinary projects in fields like Domotics,Embedded systems,Computer Vision, Smart Energy, Mechatronics.</br>
 
-						 I am currently working on a blogging website based on Hand Gesture Recognition and a publishable research \project on Human Gait Analysis.</br>
+						 I am currently working on a blogging website based on Hand Gesture Recognition and a publishable research project on Human Gait Analysis.</br>
                          I am also interested in competitive programming and have a admirable hold on Data Structure and algorithms.
 						  For detailed info, check out my <a href="#work">portfolio</a>.
 
@@ -601,6 +621,6 @@
 	<script src="js/rubino.js"></script>
 	<script src="js/jqBootstrapValidation.js"></script>
 	<script src="js/contactform.js"></script>
-	
+	<script src="js/video.js"></script>
   </body>
 </html>
